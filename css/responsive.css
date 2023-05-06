@@ -1,0 +1,219 @@
+
+/* Moblie Screen */
+@media screen and (max-width:767px) {
+    .header .contanier {
+        flex-direction: column;
+    }
+    .header {
+        padding: 20px 0;
+        position: relative;
+    }
+    .header .contanier .navbar ul .last:hover .drop-menu {
+        display: none;
+    }
+    .header .contanier .drop-menu img {
+        display: none;
+    }
+    .header .contanier .navbar {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+    .header .contanier .logo  {
+        height: 40px;
+    }
+    .header .contanier .navbar ul li {
+        padding: 20px 10px;
+    }
+    .home .contanier {
+        flex-direction: column;
+        text-align: center;
+        height: 480px;
+        margin-top: 0;
+    }
+    .home .contanier .heading {
+        width: fit-content;
+    }
+    .home .contanier .heading h1  {
+        font-size: 3rem;
+    }
+    .home .contanier .heading p {
+        font-size: 1.6rem;
+    }
+    .home .contanier .img img {
+        animation-play-state: paused;
+    }
+    .Team-Members .cards .card::before {
+        right: -10px;
+    }
+    .Services .boxes .box:nth-of-type(1) .info h4::before,
+    .Services .boxes .box:nth-of-type(2) .info h4::before{
+        top: -11px;
+    }
+    .Services .boxes .box:nth-of-type(4) .info h4::before {
+        top: -10px;
+    }
+    .our-skills .content img {
+        display: none;
+    }
+    .work .content {
+        flex-direction: column;
+    }
+    .work .content .box {
+        width: 380px;
+        flex-direction: column;
+        text-align: center;
+    }
+        .work .content .box img {
+            margin: 0 0 30px;
+        }
+    .work .content .box:nth-of-type(1) {
+        margin-top: 70px;
+    }
+    .work .content .boxes {
+        margin-left: 0;
+    }
+    .work .content .box .head {
+        width: fit-content;
+    }
+    .events .content img {
+        display: none;
+    }
+    .events .card .subscribe {
+        width: 400px;
+    }
+    .events::before {
+        display: none;
+    }
+    .events {
+        background-image: none;
+    }
+    .plans .cards .card:nth-of-type(2) {
+        transform: translateY(0);
+    }
+    .video .content {
+        flex-direction: column;
+    }
+    .discount .boxes {
+        flex-direction: column;
+        height: auto;
+    }
+    .discount .boxes .box .head p {
+        width: fit-content;
+    }
+    .discount .boxes .box form input,
+    .discount .boxes .box form textarea {
+        width: 380px;
+    }
+    .footer .box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer .images {
+        width: 370px
+    }
+    .footer .images img {
+        max-width: 113px;
+    }
+}
+/* Mudeim Sreen */
+@media screen and (max-width:991px) {
+.header .contanier .navbar ul .last:hover .drop-menu {
+    flex-direction: column;
+    width: 752px;
+    right: -40px;
+    justify-content: center;
+    height: 220px;
+}
+.header {
+    position: relative;
+}
+.events::before {
+    display: none;
+}
+.events .content img {
+    display: none;
+}
+.header .contanier .drop-menu img {
+    display: none;
+}
+.header .contanier .drop-menu ul li {
+    width: fit-content;
+    margin: 10px 5px;
+    padding: 20px 5px;
+}
+.header .contanier .drop-menu>ul {
+    flex-direction: row;
+}
+.home .contanier .img img {
+    width: 390px;
+}
+    .Services .boxes {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+    .features .contanier .boxes {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.Services .boxes .box:nth-of-type(4) .info h4::before {
+    top: -10px;
+}
+.our-skills .content img {
+    display: none;
+}
+.work .content {
+    flex-direction: column;
+}
+.work .content > img {
+    margin: 0 0 50px;
+}
+.work .content .boxes {
+    margin-left: 0;
+}
+.work .content {
+    justify-content: center;
+}
+.plans .cards .card:nth-of-type(2) {
+    transform: translateY(0);
+}
+.video .content {
+    flex-direction: column;
+}
+.discount .boxes {
+    flex-direction: column;
+    height: auto;
+}
+.discount .boxes .box .head p {
+width: fit-content;
+}
+.discount .boxes .box form input,
+.discount .boxes .box form textarea {
+    width: 380px;
+}
+.footer .images {
+    flex: 1;
+    justify-content: end;
+}
+    .footer .images img {
+        max-width: 100px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width:1200px) {
+    .video .content .start-video img {
+        width: 450px;
+        }
+}
+/* Large Screen */
+@media screen and (max-width:1200px) {
+    .work .content .box .head {
+        width: fit-content;
+    }
+    .footer .images {
+        flex: 1;
+        margin-top: 20px;
+    }
+    .footer .images img {
+        max-width: 145px;
+    }
+    .plans .cards .card:nth-of-type(2) {
+        transform: translateY(0);
+    }
+}
