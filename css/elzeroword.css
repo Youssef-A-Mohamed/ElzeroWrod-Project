@@ -482,7 +482,7 @@ ul {
     gap: 20px;
 }
 .features .contanier .box {
-    width: 340px;
+    width: fit-content;
     margin: 0 auto;
     height: fit-content;
     padding-bottom: 50px;

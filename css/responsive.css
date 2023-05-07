@@ -1,4 +1,7 @@
+/* Sumbile Moblie Screen
+@media screen and (max-width: 450px) {
 
+} */
 /* Moblie Screen */
 @media screen and (max-width:767px) {
     .header .contanier {
@@ -79,7 +82,16 @@
         display: none;
     }
     .events .card .subscribe {
-        width: 400px;
+        width: 315px;
+        flex-direction: column;
+        border-radius: 0;
+        top: 400px;
+        padding: 85px 0px;
+        }
+    .events .card .subscribe input {
+        width: 90%;
+        border-radius: 0;
+        margin-bottom: 15px;
     }
     .events::before {
         display: none;
@@ -114,7 +126,23 @@
     .footer .images img {
         max-width: 113px;
     }
+    .footer .info p {
+        width: fit-content;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .plans .cards .card {
+        width: 335px;
+    }
+    .gallery .contanier {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    }
+    .plans .cards {
+        place-items: center;
+    }
 }
+
 /* Mudeim Sreen */
 @media screen and (max-width:991px) {
 .header .contanier .navbar ul .last:hover .drop-menu {
@@ -186,7 +214,7 @@ width: fit-content;
 }
 .discount .boxes .box form input,
 .discount .boxes .box form textarea {
-    width: 380px;
+    width: 310px;
 }
 .footer .images {
     flex: 1;
@@ -208,6 +236,8 @@ width: fit-content;
     }
     .footer .images {
         flex: 1;
+        justify-content: start;
+        width: fit-content;
         margin-top: 20px;
     }
     .footer .images img {
