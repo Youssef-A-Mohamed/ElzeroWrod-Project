@@ -524,7 +524,7 @@ ul {
 }
 .features .contanier .box .images img {
     max-width: 100%;
-    width: 340px;
+    width: fit-content;
     overflow: hidden;
 }
 .features .contanier .box .images {
