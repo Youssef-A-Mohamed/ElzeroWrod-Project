@@ -98,17 +98,14 @@ ul {
     position: relative;
     transition: var(--main-transition);
 }
-
 .header .contanier .navbar ul li:hover {
     background-color: #2195f307;
 }
-
 .header .contanier .navbar > ul > li::before {
     content: '';
     width: 0%;
     transition: var(--main-transition);
 }
-
 .header .contanier .navbar > ul > li:hover::before {
     content: "";
     position: absolute;
@@ -121,7 +118,6 @@ ul {
 .header .contanier .navbar ul li:hover a {
     color: var(--main-color);
 }
-
 .header .contanier .navbar ul li a {
     text-transform: capitalize;
     text-decoration: none;
@@ -346,7 +342,6 @@ ul {
     background-size: 30px 30px;
     z-index: 4;
 }
-
 /* Heading master ends */
 /* start articles */
 .articles {
